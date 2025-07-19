@@ -22,15 +22,16 @@ Launch the container and use `cowsay` with a custom design:
 cowsay -f custom "Hello World!"
 ```
 
-You can also combine it with the [fortune](https://en.wikipedia.org/wiki/Fortune_(Unix)) command.
+You can also combine it with the `fortune` command.
 ```
 fortune | cowsay -f custom
 ```
 
 ---
-
+```
      ∧__∧
   （｡>ω<｡)つ━☆ﾟ.*･｡ﾟ.*･｡ﾟ.*･｡ﾟ.*･｡ﾟ.*･｡ﾟ.*･｡ﾟ.*･｡ﾟ.*･｡ﾟ.*･｡ﾟ.*･｡ﾟ
 ⊂　   ノ 　　　・゜+.*・゜+.*・゜+.*・゜+.*・゜+.*・゜+.*・゜+
  しーＪ　　　°。+ *´¨) .· ´¸.·*´¨) ¸.·*¨) .·*¨) .·*¨) .·*¨)
                        (¸.·´ (¸.·'* ☆ Have a happy coding life! ☆彡
+```
