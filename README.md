@@ -1,20 +1,20 @@
 # cowsay_custom
-A customized version of [cowsay](https://en.wikipedia.org/wiki/Cowsay) with additional ASCII art.
+A customized version of [cowsay](https://en.wikipedia.org/wiki/Cowsay) with additional text art.
 The [fortune](https://en.wikipedia.org/wiki/Fortune_(Unix)) command is also pre-installed.
 
 This container image can be used to check if containers can run in your environment.
 
 ## Simple Usage
 ```
-docker run aurelia01/cowsay:1.0.0
+docker run aurelia01/cowsay:latest
 ```
 
 ## Installation
 
 Pull [the image](https://hub.docker.com/r/aurelia01/cowsay) from Docker Hub
 ```
-docker pull aurelia01/cowsay:1.0.0 # For Docker
-singularity pull docker://aurelia01/cowsay:1.0.0 # For Apptainer/Singularity
+docker pull aurelia01/cowsay:latest # For Docker
+singularity pull docker://aurelia01/cowsay:latest # For Apptainer/Singularity
 ```
 
 ## Usage in the Container
